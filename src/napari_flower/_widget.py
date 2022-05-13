@@ -22,7 +22,6 @@ import sys
 import numpy
 import tensorflow as tf
 from tensorflow import keras
-from focal_loss import BinaryFocalLoss
 from tensorflow.keras import backend as K
 import numpy as np
 import cv2
