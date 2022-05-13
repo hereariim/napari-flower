@@ -84,7 +84,6 @@ def do_image_segmentation(
 
 @magic_factory(call_button="Run")
 def do_model_segmentation(
-    layer: ImageData, radio_option=1
-    ) -> ImageData:
+    layer: ImageData) -> ImageData:
     show_info('Succes !')
     return do_image_segmentation(layer)
