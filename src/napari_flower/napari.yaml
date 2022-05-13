@@ -18,11 +18,9 @@ contributions:
       python_name: napari_flower._widget:ExampleQWidget
       title: Make example QWidget
     - id: napari-flower.make_magic_widget
-      python_name: napari_flower._widget:example_magic_widget
-      title: Make example magic widget
-    - id: napari-flower.make_func_widget
-      python_name: napari_flower._widget:example_function_widget
-      title: Make example function widget 
+      python_name: napari_flower._widget:do_model_segmentation
+      title: Do model segmentation
+
   readers:
     - command: napari-flower.get_reader
       accepts_directories: false
@@ -42,7 +40,5 @@ contributions:
     - command: napari-flower.make_qwidget
       display_name: Example QWidget
     - command: napari-flower.make_magic_widget
-      display_name: Example Magic Widget
-    - command: napari-flower.make_func_widget
-      autogenerate: true
-      display_name: Example Function Widget 
+      display_name: Segmentation par deep learning
+
